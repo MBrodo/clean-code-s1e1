@@ -1,23 +1,22 @@
-  
 /* Basic Style */
 body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header-wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header-wrapper img {
   width: 100%;
 }
-.aaa .more_inf {
+.header-wrapper .more-inf {
   font-family: fantasy, cursive;
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -136,18 +135,18 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display: none;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .header-wrapper {
     text-align: center;
   }
 
